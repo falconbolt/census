@@ -15,7 +15,7 @@ export const DarkModeSwitch = () => {
           checked={isDark}
           size="xl"
           onChange={(e) => setTheme(e.target.checked ? 'dark' : 'light')}
-              iconOn={<SunIcon filled={true as any} />}
+              iconOn={<SunIcon filled />}
           iconOff={<MoonIcon filled />}
         />
        
