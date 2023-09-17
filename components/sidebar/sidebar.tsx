@@ -58,53 +58,55 @@ export const SidebarWrapper = () => {
                      isActive={router.pathname === '/'}
                      href="/"
                   />
-                  <SidebarMenu title="Main Menu">
+                  <SidebarMenu title="CENSUS">
                      <SidebarItem
                         isActive={router.pathname === '/services'}
-                        title="Services"
+                        title="Census Event"
                         icon={<CustomersIcon />}
                         href="services"
                      />
                      <SidebarItem
                         isActive={router.pathname === '/billing'}
-                        title="Billing"
+                        title="Census Officer"
                         icon={<ProductsIcon />}
                         href="Billing"
                      />
                      <SidebarItem
                         isActive={router.pathname === '/transactions'}
-                        title="Transactions"
+                        title="Enumerator"
                         icon={<PaymentsIcon />}
                         href="transactions"
                      />
-                     <SidebarItem
-                        isActive={router.pathname === '/accounts'}
-                        title="Accounts"
-                        icon={<AccountsIcon />}
-                        href="accounts"
-                     />
-                     
-                     <CollapseItems
-                        icon={<BalanceIcon />}
-                        items={['Banks Accounts', 'Credit Cards', 'Loans']}
-                        title="Balances"
-                     />
-
-                     
                      
                   </SidebarMenu>
 
-                  <SidebarMenu title="General">
+                  <SidebarMenu title="USER MANAGEMENT">
+                     <SidebarItem
+                        isActive={router.pathname === '/services'}
+                        title="View Users"
+                        icon={<CustomersIcon />}
+                        href="services"
+                     />
+                     
+                  </SidebarMenu>
+
+                  <SidebarMenu title="TASKS">
+                     <SidebarItem
+                        isActive={router.pathname === '/services'}
+                        title="Task List"
+                        icon={<CustomersIcon />}
+                        href="services"
+                     />
+                                          
+                  </SidebarMenu>
+
+                  <SidebarMenu title="POST CENSUS">
                      <SidebarItem
                         isActive={router.pathname === '/reports'}
                         title="Reports"
                         icon={<ReportsIcon />}
                      />
-                     <SidebarItem
-                        isActive={router.pathname === '/view'}
-                        title="Subscription"
-                        icon={<ViewIcon />}
-                     />
+                    
                      <SidebarItem
                         isActive={router.pathname === '/settings'}
                         title="Settings"
@@ -113,13 +115,7 @@ export const SidebarWrapper = () => {
                      
                   </SidebarMenu>
 
-                  <SidebarMenu title="Updates">
-                     <SidebarItem
-                        isActive={router.pathname === '/changelog'}
-                        title="Changelog"
-                        icon={<ChangeLogIcon />}
-                     />
-                  </SidebarMenu>
+                  
                </Sidebar.Body>
                <Sidebar.Footer>
                   <Tooltip content={'Settings'} rounded color="primary">

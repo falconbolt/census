@@ -55,7 +55,7 @@ export const Content = () => (
                      },
                   }}
                >
-                  Available Balance
+                  Task List
                </Text>
                <Flex
                   css={{

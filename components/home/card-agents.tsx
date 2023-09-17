@@ -36,7 +36,7 @@ export const CardAgents = () => {
                   direction={'row'}
                   justify={'center'}
                   css={{
-                     width: '150px',
+                     width: '180px',
                      border: '2.5px dashed $border',
                      borderRadius: '$base',
                   }}
@@ -45,7 +45,7 @@ export const CardAgents = () => {
                   <Box>
                      <Flex direction={'column'}>
                         <Text h3 css={{margin: 0}}>
-                           Agents
+                           Enumerators
                         </Text>
                      </Flex>
                   </Box>

@@ -19,7 +19,7 @@ export const CardTransactions = () => {
          <Card.Body css={{py: '$10'}}>
             <Flex css={{gap: '$5'}} justify={'center'}>
                <Text h3 css={{textAlign: 'center'}}>
-                  Latest Transactions
+                  Latest Submissions
                </Text>
             </Flex>
             <Flex
@@ -38,10 +38,10 @@ export const CardTransactions = () => {
                      stacked
                   />
                   <Text span size={'$base'} weight={'semibold'}>
-                     Jose Perez
+                     Elizabeth Perez
                   </Text>
                   <Text span css={{color: '$green600'}} size={'$xs'}>
-                     4500 USD
+                     30
                   </Text>
                   <Text span css={{color: '$accents8'}} size={'$xs'}>
                      9/20/2021
@@ -61,7 +61,7 @@ export const CardTransactions = () => {
                      Andrew Steven
                   </Text>
                   <Text span css={{color: '$green600'}} size={'$xs'}>
-                     4500 USD
+                     28
                   </Text>
                   <Text span css={{color: '$accents8'}} size={'$xs'}>
                      9/20/2021
@@ -80,7 +80,7 @@ export const CardTransactions = () => {
                      Ruben Garcia
                   </Text>
                   <Text span css={{color: '$green600'}} size={'$xs'}>
-                     1500 USD
+                     23
                   </Text>
                   <Text span css={{color: '$accents8'}} size={'$xs'}>
                      2/20/2022
@@ -99,7 +99,7 @@ export const CardTransactions = () => {
                      Perla Garcia
                   </Text>
                   <Text span css={{color: '$green600'}} size={'$xs'}>
-                     200 USD
+                     18
                   </Text>
                   <Text span css={{color: '$accents8'}} size={'$xs'}>
                      3/20/2022
@@ -118,7 +118,7 @@ export const CardTransactions = () => {
                      Mathew Funez
                   </Text>
                   <Text span css={{color: '$green600'}} size={'$xs'}>
-                     2444 USD
+                     13
                   </Text>
                   <Text span css={{color: '$accents8'}} size={'$xs'}>
                      5/20/2022
@@ -137,7 +137,7 @@ export const CardTransactions = () => {
                      Carlos Diaz
                   </Text>
                   <Text span css={{color: '$green600'}} size={'$xs'}>
-                     3000 USD
+                     9
                   </Text>
                   <Text span css={{color: '$accents8'}} size={'$xs'}>
                      12/20/2022
