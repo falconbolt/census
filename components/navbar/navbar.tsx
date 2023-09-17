@@ -94,9 +94,7 @@ export const NavbarWrapper = ({children}: Props) => {
             </Navbar.Content>
             <Navbar.Content>
             
-               <Navbar.Content>
-                  <DarkModeSwitch />
-               </Navbar.Content>
+               
                
                <Navbar.Content>
                   <NotificationsDropdown />
