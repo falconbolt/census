@@ -8,7 +8,7 @@ import {Flex} from '../styles/flex';
 import {BurguerButton} from './burguer-button';
 import {NotificationsDropdown} from './notifications-dropdown';
 import {UserDropdown} from './user-dropdown';
-import {DarkModeSwitch} from './darkmodeswitch';
+
 interface Props {
    children: React.ReactNode;
 }
